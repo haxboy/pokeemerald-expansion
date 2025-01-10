@@ -26735,3 +26735,10 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
     const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
+
+    const u32 gMonFrontPic_Skerribble[] = INCBIN_U32("graphics/pokemon/skerribble/front.4bpp.lz");
+    const u32 gMonBackPic_Skerribble[] = INCBIN_U32("graphics/pokemon/skerribble/back.4bpp.lz");
+    const u32 gMonPalette_Skerribble[] = INCBIN_U32("graphics/pokemon/skerribble/normal.gbapal.lz");
+    const u32 gMonShinyPalette_Skerribble[] = INCBIN_U32("graphics/pokemon/skerribble/shiny.gbapal.lz");
+    const u8 gMonIcon_Skerribble[] = INCBIN_U8("graphics/pokemon/skerribble/icon.4bpp");
+    const u8 gMonFootprint_Skerribble[] = INCBIN_U8("graphics/pokemon/skerribble/footprint.1bpp");
