@@ -1,6 +1,6 @@
 #include "constants/moves.h"
 
-static const u16 sNoneEggMoveLearnset[] = {
+const u16 sNoneEggMoveLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
