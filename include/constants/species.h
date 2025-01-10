@@ -1637,9 +1637,9 @@
 #define SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GMAX         SPECIES_URSHIFU_RAPID_STRIKE_GMAX
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
-#define SPECIES_CHLOROSNOW                              1524
+#define SPECIES_SKERRIBBLE                              1524
 
-#define SPECIES_EGG                                     (SPECIES_CHLOROSNOW + 1)
+#define SPECIES_EGG                                     (SPECIES_SKERRIBBLE + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

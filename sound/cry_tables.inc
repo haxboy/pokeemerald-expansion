@@ -2425,6 +2425,7 @@ gCryTable::
 	cry Cry_Pecharunt
 .endif @ P_FAMILY_PECHARUNT
 .endif @ P_CRIES_ENABLED
+	cry Cry_Skerribble
 
 	.align 2
 gCryTable_Reverse::
@@ -4853,3 +4854,4 @@ gCryTable_Reverse::
 	cry_reverse Cry_Pecharunt
 .endif @ P_FAMILY_PECHARUNT
 .endif @ P_CRIES_ENABLED
+	cry_reverse Cry_Skerribble
