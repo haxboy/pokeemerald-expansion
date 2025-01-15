@@ -1066,7 +1066,7 @@ enum {
 // Hoenn Pokédex order
 enum {
     HOENN_DEX_NONE,
-    HOENN_DEX_TREECKO,
+    /*HOENN_DEX_TREECKO,
     HOENN_DEX_GROVYLE,
     HOENN_DEX_SCEPTILE,
     HOENN_DEX_TORCHIC,
@@ -1304,6 +1304,7 @@ enum {
     HOENN_DEX_RAYQUAZA,
     HOENN_DEX_JIRACHI,
     HOENN_DEX_DEOXYS,
+    */
     HOENN_DEX_SKERRIBBLE,
 };
 
