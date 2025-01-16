@@ -1067,6 +1067,7 @@ enum {
 enum {
     HOENN_DEX_NONE,
     HOENN_DEX_TREECKO,
+    HOENN_DEX_ZORUA,
     HOENN_DEX_SKERRIBBLE,
 };
 
