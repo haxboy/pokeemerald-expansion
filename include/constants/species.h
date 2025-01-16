@@ -1638,9 +1638,26 @@
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
 #define SPECIES_SKERRIBBLE                              1524
-#define SPECIES_CALFIRE                                 1525
+#define SPECIES_THISTLETOT                              1525
+#define SPECIES_BRISTLEBLOOM                            1526
+#define SPECIES_THORNAMENT                              1527
+#define SPECIES_CALFIRE                                 1528
+#define SPECIES_BLAZEBELL                               1529
+#define SPECIES_PYROHIGH                                1530
+#define SPECIES_PUFFLET                                 1531
+#define SPECIES_TUFFIN                                  1532
+#define SPECIES_GULPUFF                                 1533
+#define SPECIES_BOGLIN                                  1534
+#define SPECIES_CREMELETTE                              1535
+#define SPECIES_RASPBERRYNE                             1536
+#define SPECIES_DRACELT                                 1537
+#define SPECIES_AURORANE                                1538
+#define SPECIES_UMBRATHAL                               1539
+#define SPECIES_NYMPHALGA                               1540
 
-#define SPECIES_EGG                                     (SPECIES_SKERRIBBLE + 1)
+
+
+#define SPECIES_EGG                                     (SPECIES_NYMPHALGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 
