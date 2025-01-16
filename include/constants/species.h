@@ -1638,6 +1638,7 @@
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
 #define SPECIES_SKERRIBBLE                              1524
+#define SPECIES_CALFIRE                                 1525
 
 #define SPECIES_EGG                                     (SPECIES_SKERRIBBLE + 1)
 

@@ -5829,7 +5829,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 #endif //P_FAMILY_TRUBBISH
 
 #if P_FAMILY_ZORUA
-    [SPECIES_ZORUA] =
+    /*[SPECIES_ZORUA] =
     {
         .baseHP        = 40,
         .baseAttack    = 65,
@@ -5954,9 +5954,9 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sZoroarkTeachableLearnset,
         .formSpeciesIdTable = sZoroarkFormSpeciesIdTable,
     },
-
+*/
 #if P_HISUIAN_FORMS
-    [SPECIES_ZORUA_HISUI] =
+    [SPECIES_ZORUA] =
     {
         .baseHP        = 35,
         .baseAttack    = 60,
@@ -6020,7 +6020,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_ZOROARK_HISUI}),
     },
 
-    [SPECIES_ZOROARK_HISUI] =
+    [SPECIES_ZOROARK] =
     {
         .baseHP        = 55,
         .baseAttack    = 100,

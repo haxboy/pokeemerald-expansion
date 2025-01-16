@@ -115,8 +115,10 @@ static const struct CombinedMove sCombinedMoves[2] =
 static const u16 sHoennToNationalOrder[HOENN_DEX_COUNT - 1] =
 {
     HOENN_TO_NATIONAL(TREECKO),
-    HOENN_TO_NATIONAL(ZORUA_HISUI),
+    HOENN_TO_NATIONAL(ZORUA),
+    HOENN_TO_NATIONAL(ZOROARK),
     HOENN_TO_NATIONAL(SKERRIBBLE),
+    HOENN_TO_NATIONAL(ZIGZAGOON),
 };
 
 const struct SpindaSpot gSpindaSpotGraphics[] =
