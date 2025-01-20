@@ -21715,6 +21715,11 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonBackPic_Palossand[] = INCBIN_U32("graphics/pokemon/palossand/back.4bpp.lz");
     const u32 gMonShinyPalette_Palossand[] = INCBIN_U32("graphics/pokemon/palossand/shiny.gbapal.lz");
     const u8 gMonIcon_Palossand[] = INCBIN_U8("graphics/pokemon/palossand/icon.4bpp");
+    const u32 gMonFrontPic_PalossandH[] = INCBIN_U32("graphics/pokemon/palossandH/front.4bpp.lz");
+    const u32 gMonPalette_PalossandH[] = INCBIN_U32("graphics/pokemon/palossandH/normal.gbapal.lz");
+    const u32 gMonBackPic_PalossandH[] = INCBIN_U32("graphics/pokemon/palossandH/back.4bpp.lz");
+    const u32 gMonShinyPalette_PalossandH[] = INCBIN_U32("graphics/pokemon/palossandH/shiny.gbapal.lz");
+    const u8 gMonIcon_PalossandH[] = INCBIN_U8("graphics/pokemon/palossandH/icon.4bpp");
 #if P_FOOTPRINTS
     const u8 gMonFootprint_Palossand[] = INCBIN_U8("graphics/pokemon/palossand/footprint.1bpp");
 #endif //P_FOOTPRINTS

@@ -3863,7 +3863,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
 #endif //P_FAMILY_WIMPOD
 
 #if P_FAMILY_SANDYGAST
-    [SPECIES_SANDYGAST] =
+    /*[SPECIES_SANDYGAST] =
     {
         .baseHP        = 55,
         .baseAttack    = 55,
@@ -3988,7 +3988,70 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .levelUpLearnset = sPalossandLevelUpLearnset,
         .teachableLearnset = sPalossandTeachableLearnset,
     },
-#endif //P_FAMILY_SANDYGAST
+    */
+    [SPECIES_PALOSSAND] =
+    {
+        .baseHP        = 105,
+        .baseAttack    = 85,
+        .baseDefense   = 115,
+        .baseSpeed     = 25,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 75,
+        .types = MON_TYPES(TYPE_GHOST, TYPE_ROCK),
+        .catchRate = 60,
+        .expYield = 168,
+        .evYield_Defense = 2,
+        .itemRare = ITEM_SPELL_TAG,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 15,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
+        .abilities = { ABILITY_WATER_COMPACTION, ABILITY_NONE, ABILITY_SAND_VEIL },
+        .bodyColor = BODY_COLOR_BROWN,
+        .speciesName = _("Palossand"),
+        .cryId = CRY_PALOSSAND,
+        .natDexNum = NATIONAL_DEX_PALOSSAND,
+        .categoryName = _("Sand Castle"),
+        .height = 13,
+        .weight = 2500,
+        .description = COMPOUND_STRING(
+            "Possessed people controlled by this\n"
+            "Pokémon transformed its sand mound into\n"
+            "a castle. As it evolved, its power to curse\n"
+            "grew ever stronger."),
+        .pokemonScale = 272,
+        .pokemonOffset = 3,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_PalossandH,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = sAnims_None,
+        .frontAnimId = ANIM_H_VIBRATE,
+        .backPic = gMonBackPic_PalossandH,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 2,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_PalossandH,
+        .shinyPalette = gMonShinyPalette_PalossandH,
+        .iconSprite = gMonIcon_PalossandH,
+        .iconPalIndex = 2,
+        NO_SHADOW
+        FOOTPRINT(Palossand)
+        OVERWORLD(
+            sPicTable_Palossand,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            gOverworldPalette_Palossand,
+            gShinyOverworldPalette_Palossand
+        )
+        .levelUpLearnset = sPalossandLevelUpLearnset,
+        .teachableLearnset = sPalossandTeachableLearnset,
+    },
+#endif P_FAMILY_SANDYGAST
+
 
 #if P_FAMILY_PYUKUMUKU
     [SPECIES_PYUKUMUKU] =
